@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+	<!-- boot strap -->
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+	integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+
+	<!-- css stylesheet -->
+	<link rel="stylesheet" href="todo.css">
+	<title>todo list</title>
+</head>
+<body>
+	<div class="container">
+		<header class="text-center text-light my-4">
+			<h1 class="mb-4">Todo list App</h1>
+			<form class="search">
+				<input class="form-control m-auto" 
+				type="text" name="search" 
+				placeholder="search">
+			</form>
+		</header>
+		<ul class="list-group todos mx-auto ">
+			<li class="list-group-item d-flex text-light justify-content-between align-items-center">
+				<span>to do item 1</span>
+				<i class="far fa-trash-alt delete"></i>
+			</li>
+			<li class="list-group-item d-flex text-light justify-content-between align-items-center">
+				<span>to do item 2</span>
+				<i class="far fa-trash-alt delete"></i>
+			</li>
+			<li class="list-group-item d-flex text-light justify-content-between align-items-center">
+				<span>to do item 3</span>
+				<i class="far fa-trash-alt delete"></i>
+			</li>
+
+		</ul>
+		<form action="" class="add text-center text-light my-4">
+			<label for="">Add todo list</label>
+			<input class="form-control m-auto" type="text" name="add" placeholder="Add todotext-light ">
+		</form>
+
+
+	</div>
+
+
+
+
+	<script src="todo.js"></script>
+
+</body>
+</html>
